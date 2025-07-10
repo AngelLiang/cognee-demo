@@ -11,3 +11,7 @@ wheels/
 
 .DS_Store
 .env
+
+.artifacts
+.cognee_system
+.data_storage

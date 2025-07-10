@@ -1,3 +1,6 @@
+"""
+uv run demo01.py
+"""
 import os
 import dotenv
 dotenv.load_dotenv()
@@ -6,8 +9,6 @@ dotenv.load_dotenv()
 import cognee
 import asyncio
 
-
-print(os.getenv('LLM_ENDPOINT'))
 
 async def main():
     # Add text to cognee
